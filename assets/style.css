@@ -1,3 +1,58 @@
+:root {
+    --background-color: rgba(3, 50, 151, 0.25);
+}
 * {
-    color: blue;
+    color: white;
+    background-color: var(--background-color)
+}
+header {
+    background-color: var(--background-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+header h1 {
+    font-size: 45px;
+    margin: 25px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+header nav ul li {
+    margin: 10px 20px 10px 20px;
+    font-size: 25px;
+}
+header a {
+    text-decoration: none;
+}
+.hero {
+    background-image: url(../assets/hero-background.png);
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    justify-content:right;
+    flex-wrap:wrap;
+}
+.hero h3 {
+    font-size: 25px;
+    margin: 200px 20px 20px 0;
+}
+.section-title {
+    font-size: 55px;
+    text-align: right;
+    padding: 10px 20px 30px 50px;
+    margin: 0 40px 0 0;
+    border-right: 3px solid blue;
+    display:inline-block;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
