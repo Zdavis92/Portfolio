@@ -56,3 +56,20 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
 }
+.flex-projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project-box-one {
+    background-color: crimson;
+    height: 400px;
+    width: 800px;
+}
+.project-box {
+    background-color: crimson;
+    height: 200px;
+    width: 400px;
+    border: 3px solid green;
+    margin: 25px;
+}
