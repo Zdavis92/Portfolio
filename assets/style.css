@@ -73,13 +73,15 @@ header a {
     justify-content: center;
 }
 .project-box-one {
+    display: block;
     height: 30vw;
     margin: 2vw;
     color: black;
     font-size: 55px;
+    text-decoration: none;
     padding: 1vw;
     border: 3px solid black;
-    background-image: url(../assets/placeholder-1-e1533569576673-960x960.png);
+    background-image: url(../assets/run-buddy-hero-bg.jpg);
     background-size: cover;
     background-position: center;
 }
