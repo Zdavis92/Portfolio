@@ -45,16 +45,33 @@ header a {
 }
 .section-title {
     font-size: 55px;
-    text-align: right;
-    padding: 10px 20px 30px 50px;
-    margin: 0 40px 0 0;
-    border-right: 3px solid blue;
-    display:inline-block;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 3px solid blue;
 }
-.flex {
+.flex-aboutMe {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+}
+.flex-aboutMe img {
+    width: 30%;
+    margin: 3vw;
+}
+.flex-aboutMe p {
+    flex-grow: 2;
+}
+.flex-myProjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .flex-myProjects h2 {
+    flex-grow: 1;
+}
+.flex-myProjects div {
+    flex-grow: 2;
 }
 .flex-projects {
     display: flex;
