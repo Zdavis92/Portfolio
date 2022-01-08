@@ -47,7 +47,6 @@ header a {
     font-size: 55px;
     text-align: center;
     padding: 10px;
-    border-bottom: 3px solid blue;
 }
 .flex-aboutMe {
     display: flex;
@@ -67,26 +66,30 @@ header a {
     flex-wrap: wrap;
     justify-content: center;
 }
- .flex-myProjects h2 {
-    flex-grow: 1;
-}
-.flex-myProjects div {
-    flex-grow: 2;
-}
+
 .flex-projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 .project-box-one {
-    background-color: crimson;
-    height: 400px;
-    width: 800px;
+    height: 30vw;
+    margin: 2vw;
+    color: black;
+    font-size: 55px;
+    padding: 1vw;
+    border: 3px solid black;
+    background-image: url(../assets/placeholder-1-e1533569576673-960x960.png);
+    background-size: cover;
+    background-position: center;
 }
 .project-box {
-    background-color: crimson;
-    height: 200px;
-    width: 400px;
-    border: 3px solid green;
-    margin: 25px;
+    color: black;
+    height: 20vw;
+    width: 40vw;
+    border: 3px solid black;
+    margin: 2vw;
+    background-image: url(../assets/placeholder-1-e1533569576673-960x960.png);
+    background-size: cover;
+    background-position: center;
 }
