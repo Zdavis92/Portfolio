@@ -12,8 +12,8 @@ header {
     justify-content: space-between;
 }
 header h1 {
-    font-size: 45px;
-    margin: 25px;
+    font-size: 60px;
+    margin: 35px;
 }
 header nav ul {
     display: flex;
@@ -59,14 +59,8 @@ header a {
     margin: 3vw;
 }
 .flex-aboutMe p {
-    flex-grow: 2;
+    font-size: 20px;
 }
-.flex-myProjects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 .flex-projects {
     display: flex;
     flex-wrap: wrap;
@@ -105,4 +99,49 @@ header a {
 .contactMeInfo span {
     font-weight: bold;
     text-decoration-line: underline;
+}
+@media screen and (max-width: 980px) {
+    header {
+        justify-content: center;
+    }
+    header h1 {
+        margin: 20px;
+        text-align: center;
+    }
+    header nav {
+        text-align: center;
+    }
+    header nav ul {
+        padding: 0;
+        margin: 0;
+        top:0;
+    }
+}
+@media screen and (max-width: 760px) {
+    .contactMeInfo {
+        font-size: 18px;
+    }
+    .flex-projects {
+        display: block;
+    }
+    .project-box {
+        display: block;
+        width:auto;
+        height: 30vw;
+        margin: 4vw;
+        color:black;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        padding: 1vw;
+        border: 3px solid black;
+        /* background-image:;
+        background-size: cover;
+        background-position: center; */
+    }
+}
+@media screen and (max-width: 550px) {
+    header nav ul {
+        flex-direction: column;
+    }
 }
