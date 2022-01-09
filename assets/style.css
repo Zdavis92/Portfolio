@@ -80,6 +80,19 @@ header a {
     background-size: cover;
     background-position: center;
 }
+.project-box-two {
+    color: #024e76;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    height: 20vw;
+    width: 40vw;
+    border: 3px solid black;
+    margin: 2vw;
+    background-image: url(../assets/images/Horiseon\ site\ screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
 .project-box {
     color: black;
     height: 20vw;
@@ -124,24 +137,28 @@ header a {
     .flex-projects {
         display: block;
     }
-    .project-box {
+    .project-box, .project-box-two {
         display: block;
         width:auto;
         height: 30vw;
         margin: 4vw;
-        color:black;
-        font-size: 20px;
+        font-size: 27px;
         font-family: Arial, Helvetica, sans-serif;
         text-decoration: none;
         padding: 1vw;
         border: 3px solid black;
-        /* background-image:;
-        background-size: cover;
-        background-position: center; */
     }
 }
 @media screen and (max-width: 550px) {
     header nav ul {
         flex-direction: column;
+    }
+    .project-box-one, .project-box {
+        font-size: 40px;
+        text-align: center;
+    }
+    .project-box-two {
+        text-align: center;
+        font-size: 27px;
     }
 }
