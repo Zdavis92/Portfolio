@@ -76,8 +76,9 @@ header a {
     text-decoration: none;
     padding: 1vw;
     border: 3px solid #fce138;
-    background-image: url(./images/Goup\ Project\ 1\ img.png);
-    background-size: cover;
+    background-image: url(./images/We-help-austin-homepage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .project-box-two {
@@ -89,7 +90,7 @@ header a {
     width: 40vw;
     border: 3px solid black;
     margin: 2vw;
-    background-image: url(../assets/images/Horiseon\ site\ screenshot.png);
+    background-image: url(./images/Goup\ Project\ 1\ img.png);
     background-size: cover;
     background-position: center;
 }
