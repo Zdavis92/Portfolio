@@ -76,8 +76,8 @@ header a {
     text-decoration: none;
     padding: 1vw;
     border: 3px solid #fce138;
-    background-image: url(./images/We-help-austin-homepage.png);
-    background-size: contain;
+    background-image: url(./images/Connected-screenshot.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -90,11 +90,25 @@ header a {
     width: 40vw;
     border: 3px solid black;
     margin: 2vw;
-    background-image: url(./images/Goup\ Project\ 1\ img.png);
+    background-image: url(./images/We-help-austin-homepage.png);
     background-size: cover;
     background-position: center;
 }
 .project-box-three {
+    color: #024e76;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    height: 20vw;
+    width: 40vw;
+    border: 3px solid black;
+    margin: 2vw;
+    background-image: url(./images/Goup\ Project\ 1\ img.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.project-box-four {
     color: #024e76;
     font-size: 22px;
     font-family: Arial, Helvetica, sans-serif;
